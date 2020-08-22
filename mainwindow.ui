@@ -10,6 +10,9 @@
     <height>336</height>
    </rect>
   </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -175,6 +178,21 @@
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit"/>
+       </item>
+       <item>
+        <widget class="QComboBox" name="translate_comboBox">
+         <property name="maxCount">
+          <number>1</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>Eng</string>
+          </property>
+         </item>
         </widget>
        </item>
       </layout>
